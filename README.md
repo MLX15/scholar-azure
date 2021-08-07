@@ -1,14 +1,7 @@
-# Google Scholar Azure
-
-Project is Development
-
-FPT University 
-
-
+# Scholar Azure
 # Settings
 
 ```
-
 #Setting Environment
 
 1. Python (https://www.python.org/)
@@ -22,11 +15,11 @@ FPT University
 
 ## Settings
 
-Delete Foder .azure (googleScholarAzure/)
+Delete Foder .azure (ScholarAzure/)
 
-git clone https://github.com/giakinh0823/googleScholarAzure.git
+git clone https://github.com/MLX15/Scholar-Azure.git
 
-cd googleScholarAzure
+cd scholarazure
 
 pip install azure==4.0.0
 pip install django-storages==1.11.1
@@ -49,7 +42,7 @@ Signup in here: [Azure](https://azure.microsoft.com/en-us/)
 
 2.Create a Database
 
-3.Go to Setting.py in project (googleScholarAzure/Scholar/setting.py)
+3.Go to Setting.py in project (ScholarAzure/Scholar/setting.py)
 
 4.Edit code Database:
  
@@ -118,14 +111,14 @@ MEDIA_URL = f'https://{AZURE_CUSTOM_DOMAIN}/{MEDIA_LOCATION}/'
 
 example: Python 3.9.1
 
--> edit file runtime.txt in (googleScholarAzure/Scholar/runtime.txt)
+-> edit file runtime.txt in (ScholarAzure/Scholar/runtime.txt)
 
 -> Python-3.9.1
 
  
 3.Go to Github (https://github.com/) create a new project 
 
-4.Commit googleScholarAzure to your git
+4.Commit ScholarAzure to your git
 
 5. > az login (login)
 
